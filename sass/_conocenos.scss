@@ -1,0 +1,29 @@
+.sectionconocenos {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (1,3fr);
+    margin: 10px;
+    .divquienes {
+        font-size: 20px;
+        .imgconocenos {
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
+
+.mainconocenos {
+    .h2conocenos {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .ulconocenos {
+        background-color: white;
+        margin: 40px;
+        .licoonocenos {
+            list-style: none;
+            font-size: 25px;
+        }
+    }
+}

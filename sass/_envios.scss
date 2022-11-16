@@ -1,0 +1,18 @@
+.divenvios1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    justify-content: center;
+    .divenvioshijo{
+        margin: 10px;
+        p{
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: antiquewhite;
+        }
+        .imgenvios{
+            width: 350px;
+            height: 200px;
+        }
+    }
+}

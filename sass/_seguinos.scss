@@ -1,0 +1,34 @@
+.formseguinos {
+    margin: 10px;
+    .gridcontainer{
+        display: grid;
+        justify-content: space-around;
+        background-color: grey;
+        grid-template-rows: 1fr;
+        grid-template-columns: (3, 1fr);
+        div{
+            margin: 15px;
+        }
+    }
+}
+
+.h2seguinos {
+    display: flex;
+    justify-content: center;
+}
+
+.mainseguinos {
+    display: flex;
+    justify-content: center;
+    div{
+        margin: 20px;
+        h3{
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    }
+}

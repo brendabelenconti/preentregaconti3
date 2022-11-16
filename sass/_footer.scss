@@ -1,0 +1,15 @@
+footer {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        min-height: 200px;
+        p {
+            font-size: 30px;
+        }
+    }
+}
